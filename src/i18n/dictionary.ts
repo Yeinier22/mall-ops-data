@@ -29,6 +29,7 @@ export const dict: Record<Lang, Record<string, string>> = {
     titleCol: 'Title',
     created: 'Created',
     resolved: 'Resolved',
+    kpiMetrics: 'KPI Metrics',
   },
   ar: {
     title: 'لوحة تحكم MallOps AI',
@@ -58,5 +59,6 @@ export const dict: Record<Lang, Record<string, string>> = {
     titleCol: 'العنوان',
     created: 'تاريخ الإنشاء',
     resolved: 'تاريخ الإغلاق',
+    kpiMetrics: 'مقاييس الأداء الرئيسية',
   },
 };

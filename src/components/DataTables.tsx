@@ -83,7 +83,7 @@ export const InvoicesTable: React.FC<{ data: Invoice[] }>=({ data })=>{
           <button onClick={onPdf}>{t('exportPDF')}</button>
         </div>
       </div>
-      <div className="table-container">
+      <div className="table-container scrollable">
         <table className="table">
           <thead>
             <tr>
@@ -132,7 +132,7 @@ export const WorkOrdersTable: React.FC<{ data: WorkOrder[] }>=({ data })=>{
           <button onClick={onPdf}>{t('exportPDF')}</button>
         </div>
       </div>
-      <div className="table-container">
+      <div className="table-container scrollable">
         <table className="table">
           <thead>
             <tr>

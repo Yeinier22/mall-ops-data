@@ -64,6 +64,12 @@ a {
 }
 .actions { display: flex; gap: 8px; }
 .table-container { width: 100%; overflow-x: auto; }
+.table-container.scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -111,6 +117,18 @@ button:hover:not(:disabled) { background: #f0f0f0; }
   height: 8px;
   border-radius: 9999px;
   background: #f59e0b;
+}
+
+/* Scrollable table adjustments for mobile */
+@media (max-width: 768px) {
+  .table-container.scrollable {
+    max-height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .table-container.scrollable {
+    max-height: 250px;
+  }
 }
 
 /* Responsive tweaks for mobile */
