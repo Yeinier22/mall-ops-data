@@ -1,6 +1,7 @@
 # MallOps AI Dashboard (Local)
 
 This is a local bilingual dashboard (EN/AR) you can run in VS Code. It connects to Supabase Postgres if env vars are set, or falls back to mock data for quick testing.
+https://mallop.netlify.app/
 
 ## Features
 - Mall selector filter
